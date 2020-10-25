@@ -7,5 +7,5 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./postman/Postman API Test Suite.postman_collection.json
+          collection: ./postman/Postman-API-Test-Suite.postman_collection.json
           environment: ./postman/jsonplaceholder-env.postman_environment.json
